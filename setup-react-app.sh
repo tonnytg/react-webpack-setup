@@ -13,6 +13,9 @@ yarn init -y
 yarn add react react-dom
 yarn add --dev typescript @types/react @types/react-dom
 
+# Install CSS Loader
+yarn add --save-dev style-loader css-loader
+
 # Install Webpack and related tools
 yarn add --dev webpack webpack-cli webpack-dev-server html-webpack-plugin ts-loader
 
